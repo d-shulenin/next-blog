@@ -1,3 +1,13 @@
 {
-  "extends": "next/core-web-vitals"
+  "plugins": ["perfectionist"],
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "perfectionist/sort-imports": [
+      "error",
+      {
+        "type": "alphabetical",
+        "order": "asc"
+      }
+    ]
+  }
 }
