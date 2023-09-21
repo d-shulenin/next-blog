@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   return (
-    <header className="px-16 py-5 bg-white flex justify-between items-center">
+    <header className="px-8 md:px-12 xl:px-16 py-5 bg-white flex justify-between items-center">
       <h1 className="font-bold text-xl tracking-wider">BLOG</h1>
       <div className="hidden md:flex items-center gap-24">
         <nav>

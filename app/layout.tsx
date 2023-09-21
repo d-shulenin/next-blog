@@ -23,7 +23,9 @@ export default function RootLayout({
       >
         <Providers>
           <Header />
-          <main className="bg-[#F2F4F7] flex-1">{children}</main>
+          <section className="bg-[#F2F4F7] flex-1 px-[3%] py-12 xl:py-20 xl:px-[16%] md:py-16 md:px-[5%] ">
+            {children}
+          </section>
         </Providers>
       </body>
     </html>
